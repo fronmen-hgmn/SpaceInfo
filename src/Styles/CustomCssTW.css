@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* -----------------------------------NAVBAR-------------------------------------- */
+.logo {
+  background-image: url("../assets/Planets/vertical-shot-starry-night-sky.jpg"); 
+    background-size: cover;
+    background-position: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    cursor: pointer;
+}
+
+.hovtext {
+  padding: 5px;
+  color: #fff;
+  border: 1px solid transparent;
+  transition: .3s;
+}
+
+.hovtext:hover {
+  transition: .3s;
+  border: 1px solid transparent;
+  border-color: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(90deg, #00f1fe63 0%, #4facfe75 100%);
+  backdrop-filter: blur(20px);
+  transform: scale(1.1);
+  box-shadow: 1px 1px 20px aqua;
+
+}
+
+/* -----------------------------------TEXT---------------------------------------- */
+.position {
+  text-align: center;
+  justify-content: center;
+  padding: 15px;
+  color: rgb(3, 201, 201);
+}
+
+/* ------------------------------------BUTTON--------------------------------------- */
+.button {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 5px;
+  border: solid 1px aqua;
+  padding: 10px;
+  align-self: flex-end;
+  border-radius: 20px;
+  margin-top: 5%;
+  transition: .3s;
+}
+
+.button:hover {
+  border-color: aqua;
+  color: rgb(208, 240, 240);
+  background: linear-gradient(90deg, #00f1fe33 0%, #4facfe 100%);
+  transform: scale(1.1);
+}
+
+/* ----------------------------------------------------GITHUB&INSTAQRAM-------------------- */
+.sosialPosition {
+  color: aliceblue;
+  font-size: 40px;
+  cursor: pointer;
+  position: fixed;
+  right: 45px;
+  bottom: 50px;
+  transition: .3s;
+}
+
+.sosial {
+  transition: .3s;
+}
+
+.sosial:hover {
+  color: aqua;
+  transform: scale(1.2);
+}

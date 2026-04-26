@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mercury{
+    width:100px;
+    border:solid 1px white;
+}
