@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { useState } from "react";
 /* import Qravity from "../Companent/QravitiLogic"; */
 import mercuryImg from '../assets/Planets/mercury.png';
@@ -15,6 +15,7 @@ export default function Planets() {
     const [earthWeight, setEarthWeight] = useState("")
     const planetsData = [
         {
+            id: 1,
             name: "MERCURY",
             img: mercuryImg,
             description: "The closest planet to the Sun...",
@@ -22,6 +23,7 @@ export default function Planets() {
             gravity: 0.38
         },
         {
+            id: 2,
             name: "VENUS",
             img: veneraImg,
             description: "The hottest planet in the solar system...",
@@ -29,6 +31,7 @@ export default function Planets() {
             gravity: 0.91
         },
         {
+            id: 3,
             name: "EART",
             img: EarthImg,
             description: "Our home...",
@@ -36,6 +39,7 @@ export default function Planets() {
             gravity: 1
         },
         {
+            id: 4,
             name: "MARS",
             img: marsImg,
             description: "The 'Red Planet'...",
@@ -43,6 +47,7 @@ export default function Planets() {
             gravity: 0.38
         },
         {
+            id: 5,
             name: "JUPITER",
             img: jupiterImg,
             description: "The largest gas giant...",
@@ -50,6 +55,7 @@ export default function Planets() {
             gravity: 2.34
         },
         {
+            id: 6,
             name: "SATURN",
             img: saturnImg,
             description: "Famous for its rings...",
@@ -57,6 +63,7 @@ export default function Planets() {
             gravity: 1.06
         },
         {
+            id: 7,
             name: "URANUS",
             img: uranImg,
             description: "An ice giant...",
@@ -64,6 +71,7 @@ export default function Planets() {
             gravity: 0.92
         },
         {
+            id: 8,
             name: "NEPTUNE",
             img: neptunImg,
             description: "The farthest and coldest...",
@@ -103,23 +111,10 @@ export default function Planets() {
                                     <p className="text-[#4CC9F0] font-bold text-sm">{planet.temp}</p>
                                     <p className="text-[10px] uppercase text-gray-500 font-medium">Temp</p>
                                 </div>
-
                             </div>
-                            <div className="flex mt-6  gap-2">
-                                <input
-                                    type="number"
-                                    placeholder="Weight on Earth"
-                                    className="p-1 rounded-lg bg-slate-700/50 border border-white/10 text-white w-33 outline-none focus:border-blue-400 transition-all"
-                                    value={earthWeight}
-                                    onChange={(e) => setEarthWeight(e.target.value)}
-                                />
-                                <input
-                                    type="text"
-                                    placeholder="Result"
-                                    className="p-2 rounded-lg bg-slate-800/80 border border-white/5 text-[#4CC9F0] font-bold w-32 outline-none"
-                                    value={earthWeight ? (earthWeight * planet.gravity).toFixed(1) + "KG" : ""} 
-                                    readOnly
-                                />
+                            <div>
+                                <br />
+                                <Link to={`/planets/${planet.id}`} className="ml-30 m border flex w-[110px] p-2 rounded-lg border-emerald-500 transition-all hover:bg-emerald-700 text-white">Learne more</Link>
                             </div>
                         </div>
                     </div>
