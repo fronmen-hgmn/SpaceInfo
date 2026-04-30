@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 import { useState } from "react";
 import { getWeightOnPlanet } from '../Planets/TypeScript/Gravity';
 function Mars() {
@@ -52,32 +51,32 @@ function Mars() {
                          with rivers and potentially oceans, making it a primary target in the search for ancient extraterrestrial life.
                     </p>
                     <div class="space-y-4">
-                        <div class="bg-white/5 p-4 rounded-xl border border-sky-100">
-                            <p class="text-red-400">Olympus Mons: The Volcanic King</p>
-                            <p class="text-orange-800 text-sm">Mars is home to the largest volcano in the solar system, Olympus Mons. Standing at about 22 km (13.6 miles) high, it is nearly three times the height of Mount Everest, with a base area roughly the size of Arizona.</p>
+                        <div className="bg-white/5 p-4 rounded-xl border border-sky-100">
+                            <p className="text-red-400">Olympus Mons: The Volcanic King</p>
+                            <p className="text-orange-800 text-sm">Mars is home to the largest volcano in the solar system, Olympus Mons. Standing at about 22 km (13.6 miles) high, it is nearly three times the height of Mount Everest, with a base area roughly the size of Arizona.</p>
                         </div>
 
-                        <div class="bg-white/5 p-4 rounded-xl border border-sky-100">
-                            <p class="text-red-400 font-bold"> TValles Marineris</p>
-                            <p class="text-orange-800 text-sm"> Valles Marineris is a vast canyon system stretching over 4,000 km (2,500 miles). If it were on Earth, it would span the entire United States from New York City to Los Angeles</p>
+                        <div className="bg-white/5 p-4 rounded-xl border border-sky-100">
+                            <p className="text-red-400 font-bold"> TValles Marineris</p>
+                            <p className="text-orange-800 text-sm"> Valles Marineris is a vast canyon system stretching over 4,000 km (2,500 miles). If it were on Earth, it would span the entire United States from New York City to Los Angeles</p>
                         </div>
 
-                        <div class="bg-white/5 p-4 rounded-xl border border-sky-100">
-                            <p class="text-red-400 font-bold">Global Dust Storms</p>
-                            <p class="text-orange-800 text-sm">Mars is famous for its planet-encircling dust storms. These massive events can blanket the entire world for months, completely obscuring the surface from orbital view.</p>
+                        <div className="bg-white/5 p-4 rounded-xl border border-sky-100">
+                            <p className="text-red-400 font-bold">Global Dust Storms</p>
+                            <p className="text-orange-800 text-sm">Mars is famous for its planet-encircling dust storms. These massive events can blanket the entire world for months, completely obscuring the surface from orbital view.</p>
                         </div>
 
-                        <div class="bg-white/5 p-4 rounded-xl border border-sky-100">
-                            <p class="text-red-500 font-bold">Temperature</p>
-                            <p class="text-orange-800 text-sm"> The average surface temperature is about -65°C (-85°F). Due to the thin atmosphere, temperatures can range from a comfortable 20°C (70°F) at the equator during noon to a frigid -153°C (-225°F) at the poles at night.</p>
+                        <div className="bg-white/5 p-4 rounded-xl border border-sky-100">
+                            <p className="text-red-500 font-bold">Temperature</p>
+                            <p className="text-orange-800 text-sm"> The average surface temperature is about -65°C (-85°F). Due to the thin atmosphere, temperatures can range from a comfortable 20°C (70°F) at the equator during noon to a frigid -153°C (-225°F) at the poles at night.</p>
                         </div>
-                        <div class="bg-white/5 p-4 rounded-xl border border-sky-100">
-                            <p class="text-red-500 font-bold">Planet and Star Size Comparison</p>
+                        <div className="bg-white/5 p-4 rounded-xl border border-sky-100">
+                            <p className="text-red-500 font-bold">Planet and Star Size Comparison</p>
                             <a href="https://mr21.github.io/space-object-comparison/#earth,mars">
                                 <button className="border rounded-xl bg-red-700 border-red-500 text-white p-2 m-2 transition-all hover:bg-red-900 ">Compare Sizes</button>
                             </a>
                         </div>
-                       <div class="bg-white/5 p-4 rounded-xl border border-sky-100">
+                       <div className="bg-white/5 p-4 rounded-xl border border-sky-100">
                          <h3 className="text-red-500 font-bold">Compare your weight on this planet</h3>
                          <br />
                              <input

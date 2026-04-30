@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 import { useState } from "react";
 import { getWeightOnPlanet } from '../Planets/TypeScript/Gravity';
 function Jupiter() {
@@ -50,28 +49,28 @@ function Jupiter() {
                         dividing the atmosphere into distinct colorful bands and cloud zones. Its immense magnetic field is 20,000 times stronger than Earth's,
                         making its surroundings a hazardous zone of extreme radiation.
                     </p>
-                    <div class="space-y-4">
-                        <div class="bg-white/5 p-4 rounded-xl border border-sky-100">
-                            <p class="text-yellow-600">Metallic Hydrogen</p>
-                            <p class="text-yellow-800 text-sm">Deep inside Jupiter, the pressure is so intense that hydrogen turns into a liquid with metallic properties. This ocean of liquid metal is what generates the planet's powerful magnetic field.</p>
+                    <div className="space-y-4">
+                        <div className="bg-white/5 p-4 rounded-xl border border-sky-100">
+                            <p className="text-yellow-600">Metallic Hydrogen</p>
+                            <p className="text-yellow-800 text-sm">Deep inside Jupiter, the pressure is so intense that hydrogen turns into a liquid with metallic properties. This ocean of liquid metal is what generates the planet's powerful magnetic field.</p>
                         </div>
 
-                        <div class="bg-white/5 p-4 rounded-xl border border-sky-100">
-                            <p class="text-yellow-600 font-bold"> A Mini Solar System</p>
-                            <p class="text-yellow-800 text-sm"> Jupiter has 95 officially recognized moons. The most famous are the Galilean moons: volcanic Io, icy Europa, giant Ganymede, and cratered Callisto.</p>
+                        <div className="bg-white/5 p-4 rounded-xl border border-sky-100">
+                            <p className="text-yellow-600 font-bold"> A Mini Solar System</p>
+                            <p className="text-yellow-800 text-sm"> Jupiter has 95 officially recognized moons. The most famous are the Galilean moons: volcanic Io, icy Europa, giant Ganymede, and cratered Callisto.</p>
                         </div>
 
-                        <div class="bg-white/5 p-4 rounded-xl border border-sky-100">
-                            <p class="text-yellow-600 font-bold">Global Dust Storms</p>
-                            <p class="text-yellow-800 text-sm">Mars is famous for its planet-encircling dust storms. These massive events can blanket the entire world for months, completely obscuring the surface from orbital view.</p>
+                        <div className="bg-white/5 p-4 rounded-xl border border-sky-100">
+                            <p className="text-yellow-600 font-bold">Global Dust Storms</p>
+                            <p className="text-yellow-800 text-sm">Mars is famous for its planet-encircling dust storms. These massive events can blanket the entire world for months, completely obscuring the surface from orbital view.</p>
                         </div>
 
-                        <div class="bg-white/5 p-4 rounded-xl border border-sky-100">
-                            <p class="text-yellow-600 font-bold">Temperature</p>
-                            <p class="text-yellow-800 text-sm"> The average surface temperature is about -65°C (-85°F). Due to the thin atmosphere, temperatures can range from a comfortable 20°C (70°F) at the equator during noon to a frigid -153°C (-225°F) at the poles at night.</p>
+                        <div className="bg-white/5 p-4 rounded-xl border border-sky-100">
+                            <p className="text-yellow-600 font-bold">Temperature</p>
+                            <p className="text-yellow-800 text-sm"> The average surface temperature is about -65°C (-85°F). Due to the thin atmosphere, temperatures can range from a comfortable 20°C (70°F) at the equator during noon to a frigid -153°C (-225°F) at the poles at night.</p>
                         </div>
                         
-                        <div class="bg-white/5 p-4 rounded-xl border border-sky-100">
+                        <div className="bg-white/5 p-4 rounded-xl border border-sky-100">
                          <h3 className="text-orange-500 font-bold">Compare your weight on this planet</h3>
                          <br />
                              <input

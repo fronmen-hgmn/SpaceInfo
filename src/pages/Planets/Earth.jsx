@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 import { useState } from "react";
 import { getWeightOnPlanet } from '../Planets/TypeScript/Gravity';
 function Earth() {
@@ -52,33 +51,33 @@ function Earth() {
                         temperature over billions of years.
 
                     </p>
-                    <div class="space-y-4">
-                        <div class="bg-white/5 p-4 rounded-xl border border-sky-100">
-                            <p class="text-blue-400">The Protective Shield</p>
-                            <p class="text-green-800 text-sm">Deep inside Earth, a spinning iron core creates a massive magnetic field (the magnetosphere). It acts as an invisible shield, deflecting solar wind and preventing our atmosphere from being stripped away into space.</p>
+                    <div className="space-y-4">
+                        <div className="bg-white/5 p-4 rounded-xl border border-sky-100">
+                            <p className="text-blue-400">The Protective Shield</p>
+                            <p className="text-green-800 text-sm">Deep inside Earth, a spinning iron core creates a massive magnetic field (the magnetosphere). It acts as an invisible shield, deflecting solar wind and preventing our atmosphere from being stripped away into space.</p>
                         </div>
 
-                        <div class="bg-white/5 p-4 rounded-xl border border-sky-100">
-                            <p class="text-blue-400 font-bold"> The Blue Marble</p>
-                            <p class="text-green-800 text-sm">About 71% of the planet's surface is covered by oceans. Water not only sustains life but also absorbs solar heat, distributing it across the globe via currents, which keeps the climate habitable.</p>
+                        <div className="bg-white/5 p-4 rounded-xl border border-sky-100">
+                            <p className="text-blue-400 font-bold"> The Blue Marble</p>
+                            <p className="text-green-800 text-sm">About 71% of the planet's surface is covered by oceans. Water not only sustains life but also absorbs solar heat, distributing it across the globe via currents, which keeps the climate habitable.</p>
                         </div>
 
-                        <div class="bg-white/5 p-4 rounded-xl border border-sky-100">
-                            <p class="text-blue-400 font-bold">The Lunar Guardian</p>
-                            <p class="text-green-800 text-sm">Our Moon is an unusually large satellite. Its gravity stabilizes the tilt of Earth’s axis, preventing chaotic climate shifts and ensuring a predictable succession of seasons.</p>
+                        <div className="bg-white/5 p-4 rounded-xl border border-sky-100">
+                            <p className="text-blue-400 font-bold">The Lunar Guardian</p>
+                            <p className="text-green-800 text-sm">Our Moon is an unusually large satellite. Its gravity stabilizes the tilt of Earth’s axis, preventing chaotic climate shifts and ensuring a predictable succession of seasons.</p>
                         </div>
 
-                        <div class="bg-white/5 p-4 rounded-xl border border-sky-100">
-                            <p class="text-blue-500 font-bold">A Living Atmosphere</p>
-                            <p class="text-green-800 text-sm">Our atmosphere is 21% free oxygen—a byproduct of plant life. The ozone layer in the stratosphere blocks 99% of the Sun's harmful ultraviolet radiation.</p>
+                        <div className="bg-white/5 p-4 rounded-xl border border-sky-100">
+                            <p className="text-blue-500 font-bold">A Living Atmosphere</p>
+                            <p className="text-green-800 text-sm">Our atmosphere is 21% free oxygen—a byproduct of plant life. The ozone layer in the stratosphere blocks 99% of the Sun's harmful ultraviolet radiation.</p>
                         </div>
-                        <div class="bg-white/5 p-4 rounded-xl border border-sky-100">
-                            <p class="text-green-500 font-bold">Planet and Star Size Comparison</p>
+                        <div className="bg-white/5 p-4 rounded-xl border border-sky-100">
+                            <p className="text-green-500 font-bold">Planet and Star Size Comparison</p>
                             <a href="https://mr21.github.io/space-object-comparison/#earth,sun">
                                 <button className="border rounded-xl bg-yellow-700 border-yellow-500 text-white p-2 m-2 transition-all hover:bg-yellow-900 ">Compare Sizes</button>
                             </a>
                         </div>
-                         <div class="bg-white/5 p-4 rounded-xl border border-sky-100">
+                         <div className="bg-white/5 p-4 rounded-xl border border-sky-100">
                          <h3 className="text-blue-500 font-bold">Compare your weight on this planet</h3>
                          <br />
                              <input
