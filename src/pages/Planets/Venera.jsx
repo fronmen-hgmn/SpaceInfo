@@ -39,7 +39,7 @@ function Venera() {
                 <div className="space-y-8">
                     <div>
                         <h1 className="text-6xl font-black text-white mb-2 tracking-tighter uppercase">
-                            Venera
+                            Venus
                         </h1>
                         <div className="h-1 w- bg-sky-100"></div>
                     </div>
