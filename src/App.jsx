@@ -1,7 +1,7 @@
 /* React Modlar */
 import React from "react";
 import { HashRouter, BrowserRouter, Routes, Route } from "react-router-dom";
-/* Companentler */
+/* -------------------------------------------------Companent-------------------------------------- */
 import Header from "./Companent/Header";
 import Footer from "./Companent/footer"
 import Home from "./pages/Home";
@@ -28,9 +28,10 @@ import Galaxies from "./pages/Galaxies";
 import Andromeda from "./pages/galaxi/Andromeda";
 import TheLargeandSmallMagellanicClouds from "./pages/galaxi/TheLargeandSmallMagellanicClouds";
 import Sagitarius from "./pages/galaxi/Sagitarius";
+import SpaceQuiz from "./pages/SpaceQuiz";
 import About from "./pages/About";
 import videoBg from "./assets/space-bg.mp4";
-
+import NasaMedia from "./pages/NasaAPI"
 import "./styles/CustomCssTW.css";
 /* FontAwesom(ICONLAR) */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -76,6 +77,8 @@ export default function App() {
                         <Route path="/planets/6" element={<Saturn />}></Route>
                         <Route path="/planets/7" element={<Uranus />}></Route>
                         <Route path="/planets/8" element={<Neptun />}></Route>
+                        <Route path="/spacequiz" element={<SpaceQuiz/>}></Route>
+                        <Route path="/nasamed" element={<NasaMedia/>}></Route>
                     </Routes>
                 </main>
                 <Footer />

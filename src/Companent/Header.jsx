@@ -33,11 +33,15 @@ export default function Header() {
                     <Link to="/galaxies">Galaxies</Link>
                 </li>
                 <li className="hovtext">
-                    <Link to="/missions">Missions</Link>
+                    <Link to="/nasamed">NASA</Link>
+                </li>
+                <li className="hovtext">
+                    <Link to="/spacequiz">Quiz</Link>
                 </li>
                 <li className="hovtext">
                     <Link to="/about">About</Link>
                 </li>
+                
             </ul>
         </header>
     )
